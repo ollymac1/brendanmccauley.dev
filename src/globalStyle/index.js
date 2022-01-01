@@ -35,4 +35,9 @@ h4{
 a,p{
 	font-family: ${({ theme }) => theme.fonts.body};
 }
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
 `;

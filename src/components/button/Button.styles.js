@@ -16,4 +16,8 @@ export const ButtonStyles = styled.button`
 		transform: scale(1.02);
 		transform: translateY(-1px);
 	}
+
+	a {
+		width: 100%;
+	}
 `;

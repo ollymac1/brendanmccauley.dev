@@ -22,8 +22,8 @@ function Index() {
 					}}
 					transition={{ delay: 3 }}
 				>
-					<Button>ABOUt Me</Button>
-					<Button>My Work</Button>
+					<Button to='/about'>ABOUt Me</Button>
+					<Button to='/work'>My Work</Button>
 				</ButtonGroupStyles>
 			</BodyStyles>
 		</MainLayout>

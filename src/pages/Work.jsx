@@ -1,5 +1,7 @@
+import MainLayout from '../components/mainLayout/MainLayout';
+
 function Work() {
-	return <div>Work</div>;
+	return <MainLayout></MainLayout>;
 }
 
 export default Work;
