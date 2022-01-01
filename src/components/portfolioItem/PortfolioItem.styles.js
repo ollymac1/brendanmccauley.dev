@@ -4,16 +4,11 @@ export const PortfolioItemContainer = styled.div`
 	display: flex;
 	background: ${({ theme }) => theme.colors.navy};
 	padding: 10px;
-	height: 320px;
+
 	width: 100%;
 	display: flex;
 	border-radius: 5px;
 	align-items: center;
-
-	@media only screen and (max-width: 1100px) {
-		//height: 350px;
-		height: auto;
-	}
 `;
 
 export const ImgStyles = styled.div`

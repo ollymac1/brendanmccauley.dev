@@ -14,10 +14,8 @@ function PortfolioList() {
 								({ opacity: 0.8 },
 								{ translateY: [100, 50, -50, 20, -20, 10, 0] })
 							}
-							//exit={{ opacity: 0 }}
 							whileHover={{ scale: 1.01, opacity: 1 }}
 							initial={({ opacity: 0 }, { translateY: 200 })}
-							//transition={{ duration:  }}
 						>
 							<PortfolioItem key={index} project={project} />
 						</motion.div>
