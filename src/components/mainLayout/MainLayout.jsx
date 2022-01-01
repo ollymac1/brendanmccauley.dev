@@ -2,12 +2,12 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import { MainLayoutStyles, Overlay } from './MainLayout.styles';
 
-function MainLayout({ children }) {
+function MainLayout({ children, animated }) {
 	return (
 		<MainLayoutStyles>
 			<Overlay>
-				<Header />
-				<div>{children}</div>
+				<Header animated={animated} />
+				{children}
 				<Footer />
 			</Overlay>
 		</MainLayoutStyles>

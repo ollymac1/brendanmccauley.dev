@@ -4,7 +4,8 @@ import backgroundMobile from '../../assets/img/bm_background_mobile.jpg';
 
 export const MainLayoutStyles = styled.div`
 	background: url(${background}) no-repeat center center fixed;
-	height: 100vh;
+	background-size: cover;
+	min-height: 100vh;
 
 	@media only screen and (max-width: 780px) {
 		background: url(${backgroundMobile}) no-repeat center center fixed;
@@ -12,9 +13,9 @@ export const MainLayoutStyles = styled.div`
 `;
 
 export const Overlay = styled.div`
-	background: ${({ theme }) => theme.colors.navy};
-	height: 100%;
-	opacity: 0.98;
+	background: rgba(13, 18, 32, 0.95);
+	min-height: 100vh;
+	//opacity: 0.96;
 	padding: 30px;
 	display: flex;
 	flex-direction: column;

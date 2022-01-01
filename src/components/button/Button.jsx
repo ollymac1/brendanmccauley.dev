@@ -1,11 +1,13 @@
-import { ButtonStyles } from './Button.styles';
+import { ButtonStyles, Container } from './Button.styles';
 import { Link } from 'react-router-dom';
 
-function Button({ children, to }) {
+function Button({ children, to, onClick }) {
 	return (
-		<ButtonStyles>
-			<Link to={to}>{children}</Link>
-		</ButtonStyles>
+		<Container>
+			<Link to={!to ? '' : to}>
+				<ButtonStyles onClick={onClick}>{children}</ButtonStyles>
+			</Link>
+		</Container>
 	);
 }
 
