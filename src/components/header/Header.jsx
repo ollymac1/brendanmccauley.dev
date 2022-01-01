@@ -9,18 +9,11 @@ function Header({ animated }) {
 				<BrandingContainer>
 					<motion.div
 						animate={{
-							scale: [10, 1.5, 1],
+							scale: [5, 1.5, 1],
 							rotate: [0, 0, 0, 0, 0, 0, -15, 10, -10, 5, -5, 0],
 							translateY: [300, 80, 0],
 						}}
 						transition={{ duration: 2 }}
-						drag
-						dragConstraints={{
-							top: 10,
-							left: 0,
-							right: 0,
-							bottom: 0,
-						}}
 					>
 						<FoxLogo mb={`10px`} />
 					</motion.div>
