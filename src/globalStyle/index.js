@@ -46,10 +46,12 @@ h4{
 a{
 	text-decoration: none;
 	color: inherit;
+	
 }
 
 p, ul{
-	color: ${({ theme }) => theme.colors.white}
+	color: ${({ theme }) => theme.colors.white};
+	font-size:0.9rem;
 }
 
 ul{

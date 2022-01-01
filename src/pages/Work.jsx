@@ -1,14 +1,14 @@
 import MainLayout from '../components/mainLayout/MainLayout';
-import Search from '../components/search/Search';
 import { Body } from './Page.styles';
 import PortfolioList from '../components/portfolioList/PortfolioList';
+import Button from '../components/button/Button';
 
 function Work() {
 	return (
 		<MainLayout>
 			<Body>
-				<Search placeholder='Search by technology' />
 				<PortfolioList />
+				<Button to='/about'>About Me</Button>
 			</Body>
 		</MainLayout>
 	);

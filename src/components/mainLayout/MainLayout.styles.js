@@ -13,9 +13,8 @@ export const MainLayoutStyles = styled.div`
 `;
 
 export const Overlay = styled.div`
-	background: rgba(13, 18, 32, 0.95);
+	background: rgba(13, 18, 32, 0.98);
 	min-height: 100vh;
-	//opacity: 0.96;
 	padding: 30px;
 	display: flex;
 	flex-direction: column;

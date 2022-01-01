@@ -71,7 +71,7 @@ function About() {
 						<p>
 							After a healthy pregnancy, our son, <span>Fox</span> suffered from
 							an acute lack of oxygen during labour and never made it out of
-							hospital with us. He past away after a short fight a few days
+							hospital with us. He passed away after a short fight a few days
 							later in intensive care.
 						</p>
 						<p>
@@ -96,9 +96,9 @@ function About() {
 						<p>Time really is precious.</p>
 						<h4>Do what you love and love what you do.</h4>
 						<p>
-							When Foxy was born my plan was to take a couple of months or so
-							out and get back into a similar corporate routine but there’s no
-							way you’ll catch me back in that space now.
+							When Foxy was born my plan was to take a couple of months out and
+							get back into a similar corporate routine but there’s no way
+							you’ll catch me back in that space now.
 						</p>
 						<p>
 							I get much more of a kick out of coding a registration form with
@@ -109,10 +109,10 @@ function About() {
 						<p>
 							I cut corporate and started my full time ‘developer journey’ by
 							working with a local company and putting in to practice everything
-							I’ve leaner from the years of side hustling. I’ve worked full time
-							with them to brand, plan, develop and push to production a bespoke
-							membership management and booking system for a gym and collection
-							of private fitness studios.
+							I’ve learned from the years of side hustling. I’ve worked full
+							time with them to brand, plan, develop and push to production a
+							bespoke membership management and booking system for a gym and
+							collection of private fitness studios.
 						</p>
 
 						<p>Learn more about the project here</p>
@@ -122,11 +122,11 @@ function About() {
 				) : (
 					<Short>
 						<h4>Hi 👋 I'm Brendan</h4>
+						<p>A self-taught developer from Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿</p>
 						<p>
-							I'm a self-taught developer from Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 {age} old or about{' '}
-							{ageMillis} milliseconds and lover of anything geeky, dogs and
-							learning new things!
+							{age} old or about {ageMillis} milliseconds
 						</p>
+						<p>Lover of anything geeky, dogs and learning new things!</p>
 
 						<p>
 							I'm a massive opportunist. Remember that guy who was always trying
@@ -134,7 +134,7 @@ function About() {
 						</p>
 
 						<p>
-							I get a massive buzz from capitalising on opportunities. Always
+							I get a massive kick from capitalising on opportunities. Always
 							happy to speak about my long list of side hustles over the years,
 							which includes pulling together a home gym eCommerce business in
 							Dubai over the course of a few days during COVID (lockdown
@@ -156,8 +156,8 @@ function About() {
 
 						<p>
 							I use HTML, css, and JavaScript. Though constantly changing, my
-							focus right now is React.js and Firebase but I'm actively kicking
-							off some learning on Next.js and React Native.
+							focus right now is React.js and Firebase but I'm actively
+							exploring Next.js and React Native for some future projects.
 						</p>
 					</Short>
 				)}

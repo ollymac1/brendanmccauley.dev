@@ -1,3 +1,5 @@
 ## BRENDANMCCAULEY.DEV
 
-Get in touch
+- React.js
+- Styled Components
+- Framer Motion

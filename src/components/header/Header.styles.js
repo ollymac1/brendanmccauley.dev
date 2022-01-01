@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const HeaderStyles = styled.header`
 	display: flex;
 	justify-content: center;
+	margin-bottom: 20px;
+	position: sticky;
 `;
 
 export const BrandingContainer = styled.div`

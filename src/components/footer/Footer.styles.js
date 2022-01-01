@@ -6,6 +6,7 @@ export const FooterStyles = styled.footer`
 	align-items: center;
 	gap: 20px;
 	font-size: 1.3rem;
+	margin-top: 20px;
 
 	svg {
 		transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);

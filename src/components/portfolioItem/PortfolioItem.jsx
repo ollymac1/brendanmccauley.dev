@@ -7,38 +7,96 @@ import {
 	PortfolioTech,
 	PortfolioLinks,
 } from './PortfolioItem.styles';
-import hyve from '../../assets/img/portfolio/hyve.png';
+
 import { AiFillGithub } from 'react-icons/ai';
 import { GoLinkExternal } from 'react-icons/go';
+import { DiReact, DiSass } from 'react-icons/di';
+import {
+	SiAdobephotoshop,
+	SiFirebase,
+	SiRedux,
+	SiStyledcomponents,
+	SiShopify,
+} from 'react-icons/si';
+import { FiFramer } from 'react-icons/fi';
 
-function PortfolioItem() {
+function PortfolioItem({ project }) {
 	return (
 		<PortfolioItemContainer>
 			<ImgStyles>
-				<img src={hyve} alt='' />
+				<img src={project.img} alt={project.title} />
 				<div />
 			</ImgStyles>
 			<PortfolioDetails>
 				<PortfolioHeader>
 					<h6>Featured Project</h6>
-					<h4>HYVE Gym & Fitness Studios</h4>
+					<h4>{project.title}</h4>
 				</PortfolioHeader>
 				<PortfolioBody>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Perspiciatis totam molestiae quam quo odit commodi voluptatibus fuga
-						aliquam atque officia tenetur porro, natus praesentium maiores sunt
-						omnis! Obcaecati, explicabo facilis.
-					</p>
+					<p>{project.description}</p>
 				</PortfolioBody>
 				<PortfolioTech>
-					<div>Firebase</div>
-					<div>React.js</div>
-					<div>Photoshop</div>
+					{project.firebase && (
+						<div>
+							<SiFirebase />
+							Firebase
+						</div>
+					)}
+
+					{project.react && (
+						<div>
+							<DiReact />
+							React.js
+						</div>
+					)}
+					{project.redux && (
+						<div>
+							<SiRedux />
+							Redux
+						</div>
+					)}
+					{project.sass && (
+						<div>
+							<DiSass />
+							Sass
+						</div>
+					)}
+					{project.styled && (
+						<div>
+							<SiStyledcomponents />
+							Styled-components
+						</div>
+					)}
+					{project.photoshop && (
+						<div>
+							<SiAdobephotoshop />
+							Photoshop
+						</div>
+					)}
+					{project.framer && (
+						<div>
+							<FiFramer />
+							Framer
+						</div>
+					)}
+					{project.shopify && (
+						<div>
+							<SiShopify />
+							Shopify
+						</div>
+					)}
 				</PortfolioTech>
 				<PortfolioLinks>
-					<AiFillGithub />
-					<GoLinkExternal />
+					{project.github !== '' && (
+						<a target='_blank' rel='noreferrer' href={project.github}>
+							<AiFillGithub />
+						</a>
+					)}
+					{project.link !== '' && (
+						<a target='_blank' rel='noreferrer' href={project.link}>
+							<GoLinkExternal />
+						</a>
+					)}
 				</PortfolioLinks>
 			</PortfolioDetails>
 		</PortfolioItemContainer>

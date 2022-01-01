@@ -3,19 +3,19 @@ import styled from 'styled-components';
 export const PortfolioItemContainer = styled.div`
 	display: flex;
 	background: ${({ theme }) => theme.colors.navy};
-	//padding: 20px;
-	height: 300px;
+	padding: 10px;
+	height: 320px;
 	width: 100%;
 	display: flex;
 	border-radius: 5px;
-
 	align-items: center;
 `;
 
 export const ImgStyles = styled.div`
 	position: relative;
-	height: 100%;
+	height: 90%;
 	width: 55%;
+	margin-left: 10px;
 
 	img {
 		object-fit: cover;
@@ -30,7 +30,6 @@ export const ImgStyles = styled.div`
 		opacity: 0.7;
 		height: 100%;
 		width: 100%;
-		cursor: pointer;
 		transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 		&:hover {
@@ -52,6 +51,7 @@ export const PortfolioHeader = styled.div`
 	flex-direction: column;
 	h6 {
 		color: white;
+		letter-spacing: 1px;
 	}
 
 	h4 {
@@ -60,11 +60,11 @@ export const PortfolioHeader = styled.div`
 `;
 export const PortfolioBody = styled.div`
 	position: relative;
-	width: 130%;
-	left: -30%;
+	width: 140%;
+	left: -40%;
 	border-radius: 5px;
 	padding: 20px;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 	background: #101725;
 	box-shadow: 0 20px 30px -15px ${({ theme }) => theme.colors.nav2};
 	text-align: right;
@@ -74,25 +74,36 @@ export const PortfolioTech = styled.div`
 	display: flex;
 	justify-content: flex-end;
 	gap: 5px;
-	margin-top: -10px;
+	margin-top: -12px;
 	margin-right: 10px;
 	z-index: 2;
 	div {
+		display: flex;
+		align-items: center;
+		gap: 3px;
 		font-size: 0.7rem;
 		color: black;
 		background: ${({ theme }) => theme.colors.orange2};
 		padding: 5px;
 		border-radius: 5px;
+		white-space: nowrap;
 	}
 `;
 export const PortfolioLinks = styled.div`
 	display: flex;
 	justify-content: flex-end;
+
 	margin-top: 20px;
 
 	svg {
 		fill: white;
 		font-size: 1.2rem;
 		margin: 5px;
+		transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.2);
+		}
 	}
 `;
