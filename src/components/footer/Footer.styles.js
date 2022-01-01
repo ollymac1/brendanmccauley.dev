@@ -8,9 +8,11 @@ export const FooterStyles = styled.footer`
 	font-size: 1.3rem;
 
 	svg {
+		transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 		&:hover {
 			cursor: pointer;
 			fill: ${({ theme }) => theme.colors.orange};
+			transform: rotate(20deg);
 		}
 	}
 `;

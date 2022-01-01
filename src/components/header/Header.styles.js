@@ -10,6 +10,15 @@ export const BrandingContainer = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+
+	svg {
+		height: 70px;
+
+		@media only screen and (max-width: 1100px) {
+			height: 50px;
+		}
+	}
 
 	h4 {
 		letter-spacing: 9.3px;
@@ -19,7 +28,7 @@ export const BrandingContainer = styled.div`
 		@media only screen and (max-width: 1100px) {
 			font-size: 0.7rem;
 			letter-spacing: 5.3px;
-			margin-top: -6px;
+			margin-top: -5px;
 			margin-left: 0px;
 		}
 	}
