@@ -68,7 +68,7 @@ export const PortfolioHeader = styled.div`
 	}
 
 	h4 {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		white-space: nowrap;
 	}
 `;
