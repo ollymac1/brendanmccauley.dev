@@ -9,6 +9,11 @@ export const PortfolioItemContainer = styled.div`
 	display: flex;
 	border-radius: 5px;
 	align-items: center;
+
+	@media only screen and (max-width: 1100px) {
+		//height: 350px;
+		height: auto;
+	}
 `;
 
 export const ImgStyles = styled.div`
@@ -16,6 +21,10 @@ export const ImgStyles = styled.div`
 	height: 90%;
 	width: 55%;
 	margin-left: 10px;
+
+	@media only screen and (max-width: 1100px) {
+		display: none;
+	}
 
 	img {
 		object-fit: cover;
@@ -43,6 +52,10 @@ export const PortfolioDetails = styled.div`
 	width: 45%;
 	padding: 20px;
 	position: relative;
+
+	@media only screen and (max-width: 1100px) {
+		width: 100%;
+	}
 `;
 
 export const PortfolioHeader = styled.div`
@@ -56,6 +69,7 @@ export const PortfolioHeader = styled.div`
 
 	h4 {
 		font-size: 1.5rem;
+		white-space: nowrap;
 	}
 `;
 export const PortfolioBody = styled.div`
@@ -68,6 +82,11 @@ export const PortfolioBody = styled.div`
 	background: #101725;
 	box-shadow: 0 20px 30px -15px ${({ theme }) => theme.colors.nav2};
 	text-align: right;
+
+	@media only screen and (max-width: 1100px) {
+		width: 100%;
+		position: static;
+	}
 `;
 export const PortfolioTech = styled.div`
 	position: relative;
@@ -77,6 +96,9 @@ export const PortfolioTech = styled.div`
 	margin-top: -12px;
 	margin-right: 10px;
 	z-index: 2;
+	@media only screen and (max-width: 1100px) {
+		flex-wrap: wrap;
+	}
 	div {
 		display: flex;
 		align-items: center;
