@@ -1,5 +1,6 @@
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
+import Helmet from 'react-helmet';
 import { PricingContainer, BodyStyles, Announcement } from './Pricing.styles';
 import Hero from '../hero/Hero';
 import PricingTable from '../pricingTable/PricingTable';
@@ -8,6 +9,10 @@ import KeyPoints from '../keyPoints/KeyPoints';
 function Pricing() {
 	return (
 		<>
+			<Helmet>
+				<title>PAUA Pricing</title>
+				<meta name='description' content='Paua pricing demo' />
+			</Helmet>
 			<Header />
 			<Hero />
 			<Announcement>

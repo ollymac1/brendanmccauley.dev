@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import dayjs from 'dayjs';
+import Helmet from 'react-helmet';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import MainLayout from '../components/mainLayout/MainLayout';
 import { Body, Common, Long, Short } from './Page.styles';
@@ -26,6 +27,10 @@ function About() {
 	};
 	return (
 		<MainLayout>
+			<Helmet>
+				<title>About | Brendan McCauley</title>
+				<meta name='description' content='About Brendan McCauley' />
+			</Helmet>
 			<Body>
 				{long ? (
 					<Long>

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from '../../../../assets/img/paua/Paua-50px.png';
-
+import Helmet from 'react-helmet';
 import {
 	SplashScreenContainer,
 	PasswordContainer,
@@ -33,6 +33,10 @@ function SplashScreen({ setAuth }) {
 
 	return (
 		<SplashScreenContainer>
+			<Helmet>
+				<title>PAUA Login</title>
+				<meta name='description' content='Login to my PAUA demo' />
+			</Helmet>
 			<img src={logo} alt='Paua' />
 			<FormGroup>
 				<PasswordContainer>
