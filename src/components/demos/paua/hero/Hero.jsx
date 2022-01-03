@@ -15,8 +15,8 @@ function Hero() {
 				poster={poster}
 			>
 				<source src={video} type='video/webm' />
-				<source src={video2} type='video/webm' />
-				<source src={video3} type='video/webm' />
+				<source src={video2} type='video/mp4' />
+				<source src={video3} type='video/oog' />
 			</video>
 			<Overlay />
 			<VideoOverlay>
