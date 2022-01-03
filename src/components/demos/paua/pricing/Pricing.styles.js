@@ -41,6 +41,7 @@ export const Announcement = styled.div`
 		text-align: center;
 		gap: 5px;
 		border-radius: 0;
+		padding: 10px 30px;
 	}
 
 	h2,

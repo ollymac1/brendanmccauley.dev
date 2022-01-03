@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import bg from '../../../../assets/img/paua/woman-on-phone.png';
 
-export const PricingTableStyles = styled.div`
+export const PricingTableStyles = styled.section`
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 20px;

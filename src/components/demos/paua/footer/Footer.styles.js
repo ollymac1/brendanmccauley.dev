@@ -5,6 +5,7 @@ export const FooterContainer = styled.footer`
 	justify-content: space-between;
 	background-color: ${({ theme }) => theme.demoColors.pauaTeal};
 	height: 250px;
+	margin-top: 100px;
 `;
 
 export const FooterContent = styled.div`
@@ -12,7 +13,7 @@ export const FooterContent = styled.div`
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
-	align-items:flex-end ;
+	align-items: flex-end;
 	P {
 		font-size: 0.6rem;
 		color: white;

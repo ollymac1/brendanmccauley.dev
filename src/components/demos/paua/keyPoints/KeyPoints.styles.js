@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const KeyPointsContainer = styled.div`
+export const KeyPointsContainer = styled.section`
 	display: flex;
 	width: 100%;
 	align-items: center;
@@ -39,12 +39,13 @@ export const KeyPoint = styled.div`
 	}
 
 	h4 {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: #414141;
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 	p {
 		color: #414141;
+		padding: 0 25px;
 	}
 `;

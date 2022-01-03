@@ -42,12 +42,12 @@ export const products = [
 		Recommended: true,
 		attributes: [
 			{
-				title: 'No fees for the first 3 months',
-				body: 'We will waive our fees for teh first thre months',
+				title: '3 months free subscription',
+				body: 'We will waive you subscription fees for the first three months. You only pay for charging at the network standard rate.',
 			},
 			{
-				title: 'Only pay when you charge',
-				body: 'If drivers do not charge, you do not pay us anything. No minimum usage ',
+				title: 'No Service Fees',
+				body: 'No service fee on transactions. Pay the standard network price.',
 			},
 			{
 				title: '5 Free cards',
@@ -55,15 +55,15 @@ export const products = [
 			},
 			{
 				title: 'Free cancellation anytime',
-				body: 'Cancel for free anytime or just stop using. No commitment. ',
+				body: 'This is a monthly subscription, you can cancelat the end of the month for free. ',
 			},
 			{
-				title: 'up to 20 drivers',
-				body: 'Please contact us if you need more than 20 drivers',
+				title: 'Minimum 2 drivers',
+				body: 'The minimum subcription is 2 drivers. There is no maximum.',
 			},
 			{
-				title: 'Upgrade to standard anytime',
-				body: 'If occasional is no longer for you then then move to the standard package without any additional fees.  ',
+				title: 'Move to occassional anytime',
+				body: 'If standard is no longer for you then then move to the occassional package without any additional fees.  ',
 			},
 			{
 				title: 'Only £1 sign up fee',
