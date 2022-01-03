@@ -58,3 +58,18 @@ export const Common = styled.div`
 		margin-top: 10px;
 	}
 `;
+
+// Demo Styles
+export const PauaContainer = styled.div`
+	p,
+	h1,
+	h2,
+	h3 {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	button {
+		font-family: 'Oxygen', sans-serif;
+		letter-spacing: 1px;
+	}
+`;

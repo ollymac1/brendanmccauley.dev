@@ -41,7 +41,9 @@ h4{
 	letter-spacing: 1px;
 }
 
-
+p,ul{
+	color:white;
+}
 
 a{
 	text-decoration: none;
@@ -49,8 +51,8 @@ a{
 	
 }
 
-p, ul{
-	color: ${({ theme }) => theme.colors.white};
+ ul{
+
 	font-size:0.9rem;
 }
 

@@ -9,6 +9,12 @@ export const theme = {
 		black: '#000',
 	},
 
+	demoColors: {
+		pauaPink: '#FF33CC',
+		pauaPinkHover: '#d82b87',
+		pauaTeal: '#0eb3c2',
+	},
+
 	fonts: {
 		heading: 'Oswald',
 		body: 'Montserrat',

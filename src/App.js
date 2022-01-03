@@ -5,6 +5,7 @@ import { theme } from './globalStyle/theme';
 import Index from './pages/Index';
 import About from './pages/About';
 import Work from './pages/Work';
+import Paua from './pages/Paua';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 					<Route path='/work' element={<Work />} />
 					<Route path='/work/:title' element={<Work />} />
 					<Route path='/about' element={<About />} />
+					<Route path='/demo/paua' element={<Paua />} />
 				</Routes>
 			</Router>
 		</ThemeProvider>
