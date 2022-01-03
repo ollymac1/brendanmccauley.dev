@@ -7,7 +7,13 @@ import { HeroContainer, VideoOverlay, Overlay } from './Hero.styles';
 function Hero() {
 	return (
 		<HeroContainer>
-			<video playsInline autoPlay='autoplay' muted loop poster={poster}>
+			<video
+				playsInline='playsinline'
+				autoPlay='autoplay'
+				muted
+				loop
+				poster={poster}
+			>
 				<source src={video} type='video/webm' />
 				<source src={video2} type='video/webm' />
 				<source src={video3} type='video/webm' />

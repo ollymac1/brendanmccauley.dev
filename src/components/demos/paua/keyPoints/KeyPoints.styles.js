@@ -13,6 +13,7 @@ export const KeyPointsContainer = styled.div`
 		font-weight: bold;
 		text-transform: uppercase;
 		margin-bottom: 40px;
+		text-align: center;
 	}
 `;
 
