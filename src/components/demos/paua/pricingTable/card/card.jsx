@@ -1,4 +1,4 @@
-import { CardContainer, Border, Wrapper } from './card.styles';
+import { CardContainer } from './card.styles';
 
 function card({ children }) {
 	return <CardContainer>{children}</CardContainer>;
