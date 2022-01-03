@@ -7,7 +7,7 @@ export const products = [
 		attributes: [
 			{
 				title: 'No fees for the first 3 months',
-				body: 'We will waive our fees for teh first thre months',
+				body: 'We will waive our fees for the first three months',
 			},
 			{
 				title: 'Only pay when you charge',
@@ -22,7 +22,7 @@ export const products = [
 				body: 'Cancel for free anytime or just stop using. No commitment. ',
 			},
 			{
-				title: 'up to 20 drivers',
+				title: 'Up to 20 drivers',
 				body: 'Please contact us if you need more than 20 drivers',
 			},
 			{
