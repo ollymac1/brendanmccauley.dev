@@ -34,6 +34,7 @@ export const PasswordContainer = styled.div`
 		padding: 10px;
 		background: transparent;
 		width: 100%;
+		font-size: 16px;
 
 		&:focus {
 			outline: none;
