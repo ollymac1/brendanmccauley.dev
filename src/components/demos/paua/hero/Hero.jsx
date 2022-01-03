@@ -1,11 +1,16 @@
 import video from '../../../../assets/img/paua/charging_overview_hero.webm';
+import video2 from '../../../../assets/img/paua/charging_overview_hero.mp4';
+import video3 from '../../../../assets/img/paua/charging_overview_hero.ogg';
+import poster from '../../../../assets/img/paua/charging_overview_hero.webp';
 import { HeroContainer, VideoOverlay, Overlay } from './Hero.styles';
 
 function Hero() {
 	return (
 		<HeroContainer>
-			<video playsInline autoPlay='autoplay' muted loop>
+			<video playsInline autoPlay='autoplay' muted loop poster={poster}>
 				<source src={video} type='video/webm' />
+				<source src={video2} type='video/webm' />
+				<source src={video3} type='video/webm' />
 			</video>
 			<Overlay />
 			<VideoOverlay>

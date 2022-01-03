@@ -12,6 +12,7 @@ export const FooterContent = styled.div`
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
+	align-items:flex-end ;
 	P {
 		font-size: 0.6rem;
 		color: white;

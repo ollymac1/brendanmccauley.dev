@@ -39,6 +39,10 @@ export const PasswordContainer = styled.div`
 		&:focus {
 			outline: none;
 		}
+
+		&::placeholder{
+			font-size:80%;
+		}
 	}
 `;
 

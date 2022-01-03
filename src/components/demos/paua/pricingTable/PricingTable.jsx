@@ -11,7 +11,7 @@ function PricingTable() {
 	return (
 		<PricingTableContainer>
 			<PricingTableStyles>
-				<Fade cascade delay={200}>
+				<Fade cascade delay={500} triggerOnce>
 					{products.map((product, index) => (
 						<PricingOption key={index} product={product} />
 					))}
