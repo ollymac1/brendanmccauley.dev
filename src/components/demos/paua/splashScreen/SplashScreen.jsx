@@ -22,7 +22,8 @@ function SplashScreen({ setAuth }) {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		if (input === process.env.REACT_APP_POUA_PASSWORD) {
+		if (input === 'paua2022') {
+			// I know this is not secure! Usually would be a .ENV
 			setAuth(true);
 		} else {
 			setError(' ⚠️ Incorrect password, please try again');
