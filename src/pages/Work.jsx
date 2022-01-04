@@ -8,7 +8,7 @@ function Work() {
 	return (
 		<MainLayout>
 			<Helmet>
-				<title>WORK | Brendan McCauley</title>
+				<title>Portfolio | Brendan McCauley</title>
 				<meta name='description' content='Brendan McCauley portfolio' />
 			</Helmet>
 			<Body>

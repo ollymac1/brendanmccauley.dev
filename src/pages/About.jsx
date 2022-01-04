@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import dayjs from 'dayjs';
 import Helmet from 'react-helmet';
 import relativeTime from 'dayjs/plugin/relativeTime';
@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 
 function About() {
 	const [long, setLong] = useState(false);
+	const [ageMillis, setAgeMillis] = useState(0);
 
 	dayjs.extend(relativeTime);
 	const age = dayjs().from(dayjs('1987-09-25'), true);
@@ -19,7 +20,12 @@ function About() {
 		return timeNow - timeOfBirth;
 	};
 
-	const ageMillis = calcAgeMills();
+	useEffect(() => {
+		const interval = setInterval(() => setAgeMillis(calcAgeMills()), 400);
+		return () => {
+			clearInterval(interval);
+		};
+	}, []);
 
 	const handleOnClick = () => {
 		setLong(!long);
