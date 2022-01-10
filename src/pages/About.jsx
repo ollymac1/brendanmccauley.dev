@@ -142,7 +142,7 @@ function About() {
 						<p>
 							Interested in working with me on a project?{' '}
 							<u>
-								<a href='mailto:brenmcc1@gmail.co'> Get in touch.</a>
+								<a href='mailto:brenmcc1@gmail.com'> Get in touch.</a>
 							</u>
 						</p>
 					</Long>
