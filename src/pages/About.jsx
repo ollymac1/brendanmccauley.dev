@@ -29,7 +29,6 @@ function About() {
 
 	const handleOnClick = () => {
 		setLong(!long);
-		console.log('click');
 	};
 	return (
 		<MainLayout>
